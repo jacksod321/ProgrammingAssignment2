@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## A funciton when the inverse matrix of input matrix x are not calculated yet
+## it will calcualte, otherwise just return solved value already stored
 
-## Write a short comment describing this function
+
 ## Define Objective like function initialize required field
 ## such default inverse matrix is null and what setinv and getinv will do
 ## and also record. the cache
@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ## If inverse of matrix x already been calculated
 ## return value by getinv, else will call solve function
 ## to calculated inverse matrix
